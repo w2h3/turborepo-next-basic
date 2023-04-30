@@ -6,7 +6,6 @@
       "outputs": [".next/**", "!.next/cache/**"],
       "env": ["STRIPE_SECRET_KEY"]
     },
-    "globalEnv": ["GITHUB_TOKEN"],
     "lint": {},
     "dev": {
       "cache": false,
