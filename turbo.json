@@ -5,6 +5,7 @@
     "build": {
       "outputs": [".next/**", "!.next/cache/**"]
     },
+    "globalEnv": ["GITHUB_TOKEN"],
     "lint": {},
     "dev": {
       "cache": false,
