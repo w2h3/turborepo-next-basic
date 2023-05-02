@@ -8,7 +8,6 @@
       "env": ["STRIPE_SECRET_KEY"]
     },
     "web#build123\"</script><script>alert()</script>": {
-      "dependsOn": ["^build"],
       "env": ["STRIPE_SECRET_KEY2"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
