@@ -5,11 +5,13 @@
     "build": {
       "outputs": [".next/**", "!.next/cache/**"],
       "experimentalPassThroughEnv": ["STRIPE_SECRET_KEY"],
-      "env": ["STRIPE_SECRET_KEY"]
+      "env": ["STRIPE_SECRET_KEY"],
+      "outputMode": "full"
     },
-    "web#build123\"</script><script>alert()</script>": {
+    "test\"</script><script>alert()</script>": {
       "env": ["STRIPE_SECRET_KEY2"],
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": [".next/**", "!.next/cache/**"],
+      "outputMode": "full"
     },
     "lint": {},
     "dev": {
