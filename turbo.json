@@ -13,6 +13,6 @@
     }
   },
   "globalEnv": [
-    "GITHUB_TOKEN" // value will impact the hashes of all tasks
+    "GITHUB_TOKEN"
   ]
 }
