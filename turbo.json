@@ -1,11 +1,10 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "experimentalGlobalPassThroughEnv": ["GITHUB_TOKEN"],
   "globalDependencies": [".env"],
   "pipeline": {
     "build": {
       "outputs": [".next/**", "!.next/cache/**"],
-      "env": ["STRIPE_SECRET_KEY"],
+      "env": ["STRIPE_SECRET_KEY","GITHUB_TOKEN"],
       "outputMode": "full"
     },
     "lint": {},
