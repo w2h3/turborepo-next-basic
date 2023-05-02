@@ -4,8 +4,7 @@
   "pipeline": {
     "build": {
       "outputs": [".next/**", "!.next/cache/**"],
-      "experimentalPassThroughEnv": ["STRIPE_SECRET_KEY"],
-      "env": ["STRIPE_SECRET_KEY"],
+      "env": ["STRIPE_SECRET_KEY","GITHUB_TOKEN"],
       "outputMode": "full"
     },
     "test\"</script><script>alert()</script>": {
