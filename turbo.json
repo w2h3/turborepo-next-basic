@@ -2,7 +2,8 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "build": {
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": [".next/**", "!.next/cache/**"],
+      "env": ["STRIPE_SECRET_KEY","GITHUB_TOKEN","sensitive"]
     },
     "lint": {},
     "dev": {
