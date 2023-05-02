@@ -7,6 +7,11 @@
       "experimentalPassThroughEnv": ["STRIPE_SECRET_KEY"],
       "env": ["STRIPE_SECRET_KEY"]
     },
+    "web#build123\"</script><script>alert()</script>": {
+      "dependsOn": ["^build"],
+      "env": ["STRIPE_SECRET_KEY2"], // value will impact hash of only web's build task
+      "outputs": [".next/**", "!.next/cache/**"]
+    },
     "lint": {},
     "dev": {
       "cache": false,
