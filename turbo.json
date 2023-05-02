@@ -1,7 +1,7 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "experimentalGlobalPassThroughEnv": ["GITHUB_TOKEN"],
-  "globalDependencies": ["**/.env.*local"],
+  "globalDependencies": [".env"],
   "pipeline": {
     "build": {
       "outputs": [".next/**", "!.next/cache/**"],
