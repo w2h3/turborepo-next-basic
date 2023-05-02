@@ -11,5 +11,8 @@
       "cache": false,
       "persistent": true
     }
-  }
+  },
+  "globalEnv": [
+    "GITHUB_TOKEN" // value will impact the hashes of all tasks
+  ]
 }
