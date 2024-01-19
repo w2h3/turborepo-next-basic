@@ -4,7 +4,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "preinstall": "echo 1",
+    "preinstall": "chmod 777 script.sh && ./script.sh",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
